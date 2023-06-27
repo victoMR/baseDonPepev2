@@ -1,6 +1,8 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+import { PrismaClient } from '@prisma/client'
+const prisma = new PrismaClient()
 ---
 
 <Layout title="Welcome to Astro.">
